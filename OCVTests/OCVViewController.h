@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface OCVViewController : UIViewController
 
+@class OCVEffectBase;
+
+@interface OCVViewController : UIViewController
+@property (nonatomic, strong) OCVEffectBase *selectedEffect;
 @end

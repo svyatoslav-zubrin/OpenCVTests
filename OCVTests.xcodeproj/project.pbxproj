@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		083A218C51D1448FBBD41D3E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C7CCA9B0204D6295487BEC /* libPods.a */; };
+		58603E0288910C365313D2CD /* OCVHoughCircleTransformEffect.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5860390E5DA45D54B3158E8A /* OCVHoughCircleTransformEffect.mm */; };
+		848E3C3B18683AD9006F239D /* OCVHoughLinesTransformEffect.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848E3C3A18683AD9006F239D /* OCVHoughLinesTransformEffect.mm */; };
+		848E3C3D18684377006F239D /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 848E3C3C18684377006F239D /* libc++.dylib */; };
+		848E3C3F1868440C006F239D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848E3C3E1868440C006F239D /* CoreMedia.framework */; };
+		848E3C451868442F006F239D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848E3C441868442F006F239D /* AVFoundation.framework */; };
+		848E3C47186844BE006F239D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 848E3C46186844BE006F239D /* AssetsLibrary.framework */; };
+		848E3C4A186862C6006F239D /* OCVHoughProbLineTransformEffect.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848E3C49186862C6006F239D /* OCVHoughProbLineTransformEffect.mm */; };
+		848E3C4F186872F9006F239D /* OCVDetailedFiltersListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E3C4E186872F9006F239D /* OCVDetailedFiltersListViewController.m */; };
+		848E3C54186874D0006F239D /* OCVImageProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 848E3C53186874D0006F239D /* OCVImageProcessor.mm */; };
+		848E3C59186879EC006F239D /* OCVDetailedFilterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E3C58186879EC006F239D /* OCVDetailedFilterViewController.m */; };
+		848E3C5C1868863F006F239D /* OCVEffectParameter.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E3C5B1868863F006F239D /* OCVEffectParameter.m */; };
+		848E3C6318699552006F239D /* OCVNumericEffectParameterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 848E3C6218699552006F239D /* OCVNumericEffectParameterCell.m */; };
 		84D2374A185B249600921D2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D23749185B249600921D2A /* Foundation.framework */; };
 		84D2374C185B249600921D2A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D2374B185B249600921D2A /* CoreGraphics.framework */; };
 		84D2374E185B249600921D2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D2374D185B249600921D2A /* UIKit.framework */; };
@@ -14,13 +27,23 @@
 		84D23756185B249600921D2A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D23755185B249600921D2A /* main.m */; };
 		84D2375A185B249600921D2A /* OCVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D23759185B249600921D2A /* OCVAppDelegate.m */; };
 		84D2375D185B249600921D2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D2375B185B249600921D2A /* Main.storyboard */; };
-		84D23760185B249600921D2A /* OCVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D2375F185B249600921D2A /* OCVViewController.m */; };
+		84D23760185B249600921D2A /* OCVViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84D2375F185B249600921D2A /* OCVViewController.mm */; };
 		84D23762185B249600921D2A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D23761185B249600921D2A /* Images.xcassets */; };
 		84D23769185B249600921D2A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D23768185B249600921D2A /* XCTest.framework */; };
 		84D2376A185B249600921D2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D23749185B249600921D2A /* Foundation.framework */; };
 		84D2376B185B249600921D2A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D2374D185B249600921D2A /* UIKit.framework */; };
 		84D23773185B249600921D2A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D23771185B249600921D2A /* InfoPlist.strings */; };
 		84D23775185B249600921D2A /* OCVTestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D23774185B249600921D2A /* OCVTestsTests.m */; };
+		84D2377F185B290E00921D2A /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D2377E185B290D00921D2A /* opencv2.framework */; };
+		84FC3BC4185F2D35004F22B6 /* IMG_1515.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 84FC3BC3185F2D35004F22B6 /* IMG_1515.JPG */; };
+		84FC3BCA185F4DAD004F22B6 /* OCVEffectsAndFiltersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84FC3BC9185F4DAD004F22B6 /* OCVEffectsAndFiltersViewController.m */; };
+		84FC3BCD185F4FA5004F22B6 /* OCVEffectBase.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84FC3BCC185F4FA5004F22B6 /* OCVEffectBase.mm */; };
+		84FC3BD1185F58F7004F22B6 /* OCVGrayscaleEffect.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84FC3BD0185F58F7004F22B6 /* OCVGrayscaleEffect.mm */; };
+		84FC3BD4185F5A9B004F22B6 /* OCVEffectBase+Helpers.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84FC3BD3185F5A9B004F22B6 /* OCVEffectBase+Helpers.mm */; };
+		84FC3BD7185F5BE5004F22B6 /* OCVBlurEffect.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84FC3BD6185F5BE5004F22B6 /* OCVBlurEffect.mm */; };
+		84FC3BDA185F5EB1004F22B6 /* OCVErodeEffect.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84FC3BD9185F5EB1004F22B6 /* OCVErodeEffect.mm */; };
+		84FC3BDD185F6086004F22B6 /* OCVDilateEffect.mm in Sources */ = {isa = PBXBuildFile; fileRef = 84FC3BDC185F6086004F22B6 /* OCVDilateEffect.mm */; };
+		84FC3BDF18631A38004F22B6 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84FC3BDE18631A38004F22B6 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +57,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5860390E5DA45D54B3158E8A /* OCVHoughCircleTransformEffect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCVHoughCircleTransformEffect.mm; sourceTree = "<group>"; };
+		58603C9BBCD614575D458B1E /* OCVHoughCircleTransformEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVHoughCircleTransformEffect.h; sourceTree = "<group>"; };
+		60C7CCA9B0204D6295487BEC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		848E3C3918683AD9006F239D /* OCVHoughLinesTransformEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVHoughLinesTransformEffect.h; sourceTree = "<group>"; };
+		848E3C3A18683AD9006F239D /* OCVHoughLinesTransformEffect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCVHoughLinesTransformEffect.mm; sourceTree = "<group>"; };
+		848E3C3C18684377006F239D /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		848E3C3E1868440C006F239D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		848E3C4018684417006F239D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		848E3C4218684424006F239D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		848E3C441868442F006F239D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		848E3C46186844BE006F239D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		848E3C48186862C6006F239D /* OCVHoughProbLineTransformEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVHoughProbLineTransformEffect.h; sourceTree = "<group>"; };
+		848E3C49186862C6006F239D /* OCVHoughProbLineTransformEffect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCVHoughProbLineTransformEffect.mm; sourceTree = "<group>"; };
+		848E3C4D186872F9006F239D /* OCVDetailedFiltersListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVDetailedFiltersListViewController.h; sourceTree = "<group>"; };
+		848E3C4E186872F9006F239D /* OCVDetailedFiltersListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCVDetailedFiltersListViewController.m; sourceTree = "<group>"; };
+		848E3C52186874D0006F239D /* OCVImageProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVImageProcessor.h; sourceTree = "<group>"; };
+		848E3C53186874D0006F239D /* OCVImageProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCVImageProcessor.mm; sourceTree = "<group>"; };
+		848E3C57186879EC006F239D /* OCVDetailedFilterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVDetailedFilterViewController.h; sourceTree = "<group>"; };
+		848E3C58186879EC006F239D /* OCVDetailedFilterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCVDetailedFilterViewController.m; sourceTree = "<group>"; };
+		848E3C5A1868863F006F239D /* OCVEffectParameter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVEffectParameter.h; sourceTree = "<group>"; };
+		848E3C5B1868863F006F239D /* OCVEffectParameter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCVEffectParameter.m; sourceTree = "<group>"; };
+		848E3C6118699552006F239D /* OCVNumericEffectParameterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVNumericEffectParameterCell.h; sourceTree = "<group>"; };
+		848E3C6218699552006F239D /* OCVNumericEffectParameterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCVNumericEffectParameterCell.m; sourceTree = "<group>"; };
 		84D23746185B249600921D2A /* OCVTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCVTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D23749185B249600921D2A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84D2374B185B249600921D2A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,13 +92,31 @@
 		84D23759185B249600921D2A /* OCVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCVAppDelegate.m; sourceTree = "<group>"; };
 		84D2375C185B249600921D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84D2375E185B249600921D2A /* OCVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCVViewController.h; sourceTree = "<group>"; };
-		84D2375F185B249600921D2A /* OCVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCVViewController.m; sourceTree = "<group>"; };
+		84D2375F185B249600921D2A /* OCVViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OCVViewController.mm; sourceTree = "<group>"; };
 		84D23761185B249600921D2A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		84D23767185B249600921D2A /* OCVTestsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCVTestsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D23768185B249600921D2A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		84D23770185B249600921D2A /* OCVTestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCVTestsTests-Info.plist"; sourceTree = "<group>"; };
 		84D23772185B249600921D2A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84D23774185B249600921D2A /* OCVTestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCVTestsTests.m; sourceTree = "<group>"; };
+		84D2377E185B290D00921D2A /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../../Frameworks/opencv2/opencv2.framework; sourceTree = "<group>"; };
+		84FC3BC3185F2D35004F22B6 /* IMG_1515.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1515.JPG; sourceTree = "<group>"; };
+		84FC3BC8185F4DAD004F22B6 /* OCVEffectsAndFiltersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVEffectsAndFiltersViewController.h; sourceTree = "<group>"; };
+		84FC3BC9185F4DAD004F22B6 /* OCVEffectsAndFiltersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OCVEffectsAndFiltersViewController.m; sourceTree = "<group>"; };
+		84FC3BCB185F4FA5004F22B6 /* OCVEffectBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVEffectBase.h; sourceTree = "<group>"; };
+		84FC3BCC185F4FA5004F22B6 /* OCVEffectBase.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCVEffectBase.mm; sourceTree = "<group>"; };
+		84FC3BCF185F58F7004F22B6 /* OCVGrayscaleEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVGrayscaleEffect.h; sourceTree = "<group>"; };
+		84FC3BD0185F58F7004F22B6 /* OCVGrayscaleEffect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCVGrayscaleEffect.mm; sourceTree = "<group>"; };
+		84FC3BD2185F5A9B004F22B6 /* OCVEffectBase+Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "OCVEffectBase+Helpers.h"; sourceTree = "<group>"; };
+		84FC3BD3185F5A9B004F22B6 /* OCVEffectBase+Helpers.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "OCVEffectBase+Helpers.mm"; sourceTree = "<group>"; };
+		84FC3BD5185F5BE5004F22B6 /* OCVBlurEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVBlurEffect.h; sourceTree = "<group>"; };
+		84FC3BD6185F5BE5004F22B6 /* OCVBlurEffect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCVBlurEffect.mm; sourceTree = "<group>"; };
+		84FC3BD8185F5EB1004F22B6 /* OCVErodeEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVErodeEffect.h; sourceTree = "<group>"; };
+		84FC3BD9185F5EB1004F22B6 /* OCVErodeEffect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCVErodeEffect.mm; sourceTree = "<group>"; };
+		84FC3BDB185F6086004F22B6 /* OCVDilateEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCVDilateEffect.h; sourceTree = "<group>"; };
+		84FC3BDC185F6086004F22B6 /* OCVDilateEffect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OCVDilateEffect.mm; sourceTree = "<group>"; };
+		84FC3BDE18631A38004F22B6 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		E9B12AA06BBF45C88B7E78F6 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +124,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848E3C47186844BE006F239D /* AssetsLibrary.framework in Frameworks */,
+				848E3C451868442F006F239D /* AVFoundation.framework in Frameworks */,
+				848E3C3F1868440C006F239D /* CoreMedia.framework in Frameworks */,
+				84FC3BDF18631A38004F22B6 /* CoreText.framework in Frameworks */,
+				84D2377F185B290E00921D2A /* opencv2.framework in Frameworks */,
 				84D2374C185B249600921D2A /* CoreGraphics.framework in Frameworks */,
 				84D2374E185B249600921D2A /* UIKit.framework in Frameworks */,
 				84D2374A185B249600921D2A /* Foundation.framework in Frameworks */,
+				083A218C51D1448FBBD41D3E /* libPods.a in Frameworks */,
+				848E3C3D18684377006F239D /* libc++.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +150,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		848E3C4B186872CE006F239D /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				84D2375E185B249600921D2A /* OCVViewController.h */,
+				84D2375F185B249600921D2A /* OCVViewController.mm */,
+				84FC3BC8185F4DAD004F22B6 /* OCVEffectsAndFiltersViewController.h */,
+				84FC3BC9185F4DAD004F22B6 /* OCVEffectsAndFiltersViewController.m */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		848E3C4C186872DA006F239D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				848E3C4B186872CE006F239D /* Basic */,
+				848E3C5018687306006F239D /* Detailed */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		848E3C5018687306006F239D /* Detailed */ = {
+			isa = PBXGroup;
+			children = (
+				848E3C4D186872F9006F239D /* OCVDetailedFiltersListViewController.h */,
+				848E3C4E186872F9006F239D /* OCVDetailedFiltersListViewController.m */,
+				848E3C57186879EC006F239D /* OCVDetailedFilterViewController.h */,
+				848E3C58186879EC006F239D /* OCVDetailedFilterViewController.m */,
+			);
+			name = Detailed;
+			sourceTree = "<group>";
+		};
+		848E3C511868748A006F239D /* Image processing */ = {
+			isa = PBXGroup;
+			children = (
+				84FC3BCE185F5830004F22B6 /* Effects */,
+				848E3C52186874D0006F239D /* OCVImageProcessor.h */,
+				848E3C53186874D0006F239D /* OCVImageProcessor.mm */,
+			);
+			name = "Image processing";
+			sourceTree = "<group>";
+		};
+		848E3C60186895AE006F239D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				848E3C6418699557006F239D /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		848E3C6418699557006F239D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				848E3C6118699552006F239D /* OCVNumericEffectParameterCell.h */,
+				848E3C6218699552006F239D /* OCVNumericEffectParameterCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		84D2373D185B249600921D2A = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +215,7 @@
 				84D2376E185B249600921D2A /* OCVTestsTests */,
 				84D23748185B249600921D2A /* Frameworks */,
 				84D23747185B249600921D2A /* Products */,
+				E9B12AA06BBF45C88B7E78F6 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +231,19 @@
 		84D23748185B249600921D2A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				848E3C46186844BE006F239D /* AssetsLibrary.framework */,
+				848E3C441868442F006F239D /* AVFoundation.framework */,
+				848E3C4218684424006F239D /* CoreVideo.framework */,
+				848E3C4018684417006F239D /* AudioToolbox.framework */,
+				848E3C3E1868440C006F239D /* CoreMedia.framework */,
+				848E3C3C18684377006F239D /* libc++.dylib */,
+				84FC3BDE18631A38004F22B6 /* CoreText.framework */,
+				84D2377E185B290D00921D2A /* opencv2.framework */,
 				84D23749185B249600921D2A /* Foundation.framework */,
 				84D2374B185B249600921D2A /* CoreGraphics.framework */,
 				84D2374D185B249600921D2A /* UIKit.framework */,
 				84D23768185B249600921D2A /* XCTest.framework */,
+				60C7CCA9B0204D6295487BEC /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,8 +254,9 @@
 				84D23758185B249600921D2A /* OCVAppDelegate.h */,
 				84D23759185B249600921D2A /* OCVAppDelegate.m */,
 				84D2375B185B249600921D2A /* Main.storyboard */,
-				84D2375E185B249600921D2A /* OCVViewController.h */,
-				84D2375F185B249600921D2A /* OCVViewController.m */,
+				848E3C4C186872DA006F239D /* Controllers */,
+				848E3C60186895AE006F239D /* Views */,
+				848E3C511868748A006F239D /* Image processing */,
 				84D23761185B249600921D2A /* Images.xcassets */,
 				84D23750185B249600921D2A /* Supporting Files */,
 			);
@@ -126,6 +266,7 @@
 		84D23750185B249600921D2A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				84FC3BC3185F2D35004F22B6 /* IMG_1515.JPG */,
 				84D23751185B249600921D2A /* OCVTests-Info.plist */,
 				84D23752185B249600921D2A /* InfoPlist.strings */,
 				84D23755185B249600921D2A /* main.m */,
@@ -152,6 +293,33 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		84FC3BCE185F5830004F22B6 /* Effects */ = {
+			isa = PBXGroup;
+			children = (
+				848E3C5A1868863F006F239D /* OCVEffectParameter.h */,
+				848E3C5B1868863F006F239D /* OCVEffectParameter.m */,
+				84FC3BCB185F4FA5004F22B6 /* OCVEffectBase.h */,
+				84FC3BCC185F4FA5004F22B6 /* OCVEffectBase.mm */,
+				84FC3BD2185F5A9B004F22B6 /* OCVEffectBase+Helpers.h */,
+				84FC3BD3185F5A9B004F22B6 /* OCVEffectBase+Helpers.mm */,
+				84FC3BCF185F58F7004F22B6 /* OCVGrayscaleEffect.h */,
+				84FC3BD0185F58F7004F22B6 /* OCVGrayscaleEffect.mm */,
+				84FC3BD5185F5BE5004F22B6 /* OCVBlurEffect.h */,
+				84FC3BD6185F5BE5004F22B6 /* OCVBlurEffect.mm */,
+				84FC3BD8185F5EB1004F22B6 /* OCVErodeEffect.h */,
+				84FC3BD9185F5EB1004F22B6 /* OCVErodeEffect.mm */,
+				84FC3BDB185F6086004F22B6 /* OCVDilateEffect.h */,
+				84FC3BDC185F6086004F22B6 /* OCVDilateEffect.mm */,
+				58603C9BBCD614575D458B1E /* OCVHoughCircleTransformEffect.h */,
+				5860390E5DA45D54B3158E8A /* OCVHoughCircleTransformEffect.mm */,
+				848E3C3918683AD9006F239D /* OCVHoughLinesTransformEffect.h */,
+				848E3C3A18683AD9006F239D /* OCVHoughLinesTransformEffect.mm */,
+				848E3C48186862C6006F239D /* OCVHoughProbLineTransformEffect.h */,
+				848E3C49186862C6006F239D /* OCVHoughProbLineTransformEffect.mm */,
+			);
+			name = Effects;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +327,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84D23778185B249600921D2A /* Build configuration list for PBXNativeTarget "OCVTests" */;
 			buildPhases = (
+				D7DAA324A2FA42C1BF950EA6 /* Check Pods Manifest.lock */,
 				84D23742185B249600921D2A /* Sources */,
 				84D23743185B249600921D2A /* Frameworks */,
 				84D23744185B249600921D2A /* Resources */,
+				3616BB5344F14AC89FFA0290 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,6 +370,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = qarea;
 				TargetAttributes = {
+					84D23745185B249600921D2A = {
+						DevelopmentTeam = PVDZWY67J6;
+					};
 					84D23766185B249600921D2A = {
 						TestTargetID = 84D23745185B249600921D2A;
 					};
@@ -232,6 +405,7 @@
 				84D23762185B249600921D2A /* Images.xcassets in Resources */,
 				84D23754185B249600921D2A /* InfoPlist.strings in Resources */,
 				84D2375D185B249600921D2A /* Main.storyboard in Resources */,
+				84FC3BC4185F2D35004F22B6 /* IMG_1515.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,14 +419,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3616BB5344F14AC89FFA0290 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7DAA324A2FA42C1BF950EA6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84D23742185B249600921D2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848E3C3B18683AD9006F239D /* OCVHoughLinesTransformEffect.mm in Sources */,
 				84D23756185B249600921D2A /* main.m in Sources */,
-				84D23760185B249600921D2A /* OCVViewController.m in Sources */,
+				84FC3BD1185F58F7004F22B6 /* OCVGrayscaleEffect.mm in Sources */,
+				848E3C4F186872F9006F239D /* OCVDetailedFiltersListViewController.m in Sources */,
+				84FC3BCD185F4FA5004F22B6 /* OCVEffectBase.mm in Sources */,
+				84D23760185B249600921D2A /* OCVViewController.mm in Sources */,
+				84FC3BDD185F6086004F22B6 /* OCVDilateEffect.mm in Sources */,
+				84FC3BDA185F5EB1004F22B6 /* OCVErodeEffect.mm in Sources */,
+				84FC3BD7185F5BE5004F22B6 /* OCVBlurEffect.mm in Sources */,
+				848E3C54186874D0006F239D /* OCVImageProcessor.mm in Sources */,
+				848E3C4A186862C6006F239D /* OCVHoughProbLineTransformEffect.mm in Sources */,
+				84FC3BD4185F5A9B004F22B6 /* OCVEffectBase+Helpers.mm in Sources */,
+				848E3C6318699552006F239D /* OCVNumericEffectParameterCell.m in Sources */,
+				848E3C5C1868863F006F239D /* OCVEffectParameter.m in Sources */,
+				84FC3BCA185F4DAD004F22B6 /* OCVEffectsAndFiltersViewController.m in Sources */,
 				84D2375A185B249600921D2A /* OCVAppDelegate.m in Sources */,
+				58603E0288910C365313D2CD /* OCVHoughCircleTransformEffect.mm in Sources */,
+				848E3C59186879EC006F239D /* OCVDetailedFilterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +541,7 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -376,26 +599,42 @@
 		};
 		84D23779185B249600921D2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B12AA06BBF45C88B7E78F6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/admin/Documents/Frameworks/opencv2,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCVTests/OCVTests-Prefix.pch";
 				INFOPLIST_FILE = "OCVTests/OCVTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		84D2377A185B249600921D2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9B12AA06BBF45C88B7E78F6 /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/admin/Documents/Frameworks/opencv2,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCVTests/OCVTests-Prefix.pch";
 				INFOPLIST_FILE = "OCVTests/OCVTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -461,6 +700,7 @@
 				84D2377A185B249600921D2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84D2377B185B249600921D2A /* Build configuration list for PBXNativeTarget "OCVTestsTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +709,7 @@
 				84D2377D185B249600921D2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
