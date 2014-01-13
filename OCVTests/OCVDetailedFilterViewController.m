@@ -9,6 +9,7 @@
 #import "OCVDetailedFilterViewController.h"
 
 #import "OCVEffectParameter.h"
+#import "OCVHoughLinesTransformEffect.h"
 #import "OCVHoughProbLineTransformEffect.h"
 
 #import "MBProgressHUD.h"
@@ -69,7 +70,8 @@
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_BACKGROUND, 0), ^{
         UIImage *original = self.originalImageView.image;
         UIImage *filtered = nil;
-        if ([self.effect isKindOfClass:[OCVHoughProbLineTransformEffect class]])
+        if ([self.effect isKindOfClass:[OCVHoughProbLineTransformEffect class]]
+                || [self.effect isKindOfClass:[OCVHoughLinesTransformEffect class]])
         {
             NSNumber *cannyLowThreshold = [(OCVNumericEffectParameterCell *)[self.parametersTableView cellForRowAtIndexPath:
                                                                              [NSIndexPath indexPathForRow:OCVHoughProbLineTransformEffectParameterIndex_CannyLowThreshold

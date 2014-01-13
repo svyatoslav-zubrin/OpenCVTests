@@ -8,6 +8,21 @@
 
 #import "OCVEffectBase.h"
 
-@interface OCVHoughLinesTransformEffect : OCVEffectBase
+#import "OCVEffectParameter.h"
 
+typedef enum OCVHoughLineTransformEffectParameterIndex {
+    OCVHoughLineTransformEffectParameterIndex_CannyLowThreshold = 0,
+    OCVHoughLineTransformEffectParameterIndex_CannyUpThreshold  = 1,
+    OCVHoughLineTransformEffectParameterIndex_HoughAngle        = 2,
+    OCVHoughLineTransformEffectParameterIndex_HoughThreshold    = 3,
+    OCVHoughLineTransformEffectParameterIndex_Last = OCVHoughLineTransformEffectParameterIndex_HoughThreshold
+} OCVHoughLineTransformEffectParameterIndex;
+
+
+@interface OCVHoughLinesTransformEffect : OCVEffectBase
+- (UIImage *)applyOnImage:(UIImage *)sourceImage
+    withCannyLowThreshold:(NSNumber *)cannyLow
+         cannyUpThreshold:(NSNumber *)cannyUp
+               houghAngle:(NSNumber *)houghAngle
+           houghThreshold:(NSNumber *)houghThreshold;
 @end

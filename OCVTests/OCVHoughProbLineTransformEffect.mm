@@ -60,14 +60,13 @@
     cv::Mat originalMat = [self cvMatFromUIImage:sourceImage];
     cv::Mat resultMat, cannyMat;
     // prepare for hough lines transform
+    // blur the image at first
     //    cv::GaussianBlur(originalMat, resultMat, cv::Size(9, 9), 2, 2);
     
-    //    cv::Sobel(originalMat, cannyMat, CV_8U, 1, 0);
-    //    cv::cvtColor(cannyMat, cannyMat, CV_BGR2GRAY);
-    
+    // find edges
     cv::Canny(originalMat, cannyMat, 99, 200, 3, true);
     
-    return [self UIImageFromCVMat:cannyMat];
+//    return [self UIImageFromCVMat:cannyMat];
     
     //    cv::cvtColor(cannyMat, resultMat, CV_GRAY2BGR);
     // get lines
@@ -92,13 +91,19 @@
 {
     cv::Mat originalMat = [self cvMatFromUIImage:sourceImage];
     cv::Mat resultMat, cannyMat;
+    
     // prepare for hough lines transform
-    //    cv::GaussianBlur(originalMat, resultMat, cv::Size(9, 9), 2, 2);
+    // blur the image at first
+    // cv::GaussianBlur(originalMat, resultMat, cv::Size(9, 9), 2, 2);
     
-    //    cv::Sobel(originalMat, cannyMat, CV_8U, 1, 0);
-    //    cv::cvtColor(cannyMat, cannyMat, CV_BGR2GRAY);
+    // select blue component only
+    cv::vector<cv::Mat> arrayOfColorComponents;
+    cv::split(originalMat, arrayOfColorComponents);
     
-    cv::Canny(originalMat, cannyMat, [cannyLow intValue], [cannyUp intValue], 3, true);
+//    return [self UIImageFromCVMat:arrayOfColorComponents[2]];
+    
+    // find edges
+    cv::Canny(/*originalMat*/arrayOfColorComponents[2], cannyMat, [cannyLow intValue], [cannyUp intValue], 3, true);
     
 //    return [self UIImageFromCVMat:cannyMat];
     

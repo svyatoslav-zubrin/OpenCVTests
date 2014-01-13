@@ -59,7 +59,7 @@
 //                         [[OCVErodeEffect alloc] initWithName:@"Erode"],
 //                         [[OCVDilateEffect alloc] initWithName:@"Dilate"],
 //                         [[OCVHoughCircleTransformEffect alloc] initWithName:@"Hough circle tansform"],
-//                         [[OCVHoughLinesTransformEffect alloc] initWithName:@"Hough lines tansform"],
+                         [[OCVHoughLinesTransformEffect alloc] initWithName:@"Hough lines tansform"],
                          [[OCVHoughProbLineTransformEffect alloc] initWithName:@"Hough prob. lines tansform"],
                          nil];
         
