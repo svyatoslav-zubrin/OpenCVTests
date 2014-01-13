@@ -17,11 +17,13 @@
                     <connections>
                         <segue destination="vXZ-lx-hvc" kind="relationship" relationship="viewControllers" id="HX5-2Z-lJS"/>
                         <segue destination="NKJ-i7-Kx2" kind="relationship" relationship="viewControllers" id="qt1-bM-P62"/>
+                        <segue destination="tY4-LF-DSe" kind="relationship" relationship="viewControllers" id="z4x-3n-AWQ"/>
+                        <segue destination="bth-R9-T4Z" kind="relationship" relationship="viewControllers" id="cJB-ZO-NG5"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lrj-tw-9ZQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-278" y="560"/>
+            <point key="canvasLocation" x="-370" y="1256"/>
         </scene>
         <!--Detailed Filter View Controller-->
         <scene sceneID="DiG-fJ-4gu">
@@ -177,6 +179,44 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iPr-mV-kfd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="256" y="897"/>
+        </scene>
+        <!--View Controller - Teserract-->
+        <scene sceneID="drq-mH-c8b">
+            <objects>
+                <viewController id="tY4-LF-DSe" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="07q-pe-wOT"/>
+                        <viewControllerLayoutGuide type="bottom" id="9oX-Fu-U7W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="G9q-Ay-XD1">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Teserract" id="jDQ-bA-ULg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="teu-Ko-49a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="257" y="1577"/>
+        </scene>
+        <!--View Controller - Item-->
+        <scene sceneID="4zC-Lk-LkD">
+            <objects>
+                <viewController id="bth-R9-T4Z" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1js-xN-005"/>
+                        <viewControllerLayoutGuide type="bottom" id="KE7-vI-pSN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ZW2-FJ-b0K">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="Phi-mg-m49"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nEW-16-46B" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="257" y="2237"/>
         </scene>
         <!--View Controller - Basic-->
         <scene sceneID="ufC-wZ-h7g">
